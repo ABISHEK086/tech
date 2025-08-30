@@ -1,23 +1,4 @@
-/*! ------------------------------------------------
- * Project Name: Name: Braxton - Personal Portfolio & Resume HTML Template
- * Project Description: Show yourself brightly with Braxton - unique and creative portfolio and resume template!
- * Tags: mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean 
- * Version: 1.0.0
- * Build Date: March 2024
- * Last Update: March 2024
- * This product is available exclusively on Themeforest
- * Author: mix_design
- * Author URI: https://themeforest.net/user/mix_design */
-/*! File name: loader.css
- * ------------------------------------------------
- *
- * ------------------------------------------------
- * Table of Contents
- * ------------------------------------------------
- *  01. Loader Styles
- * ------------------------------------------------
- * Table of Contents End
- * ------------------------------------------------ */
+
 :root {
   --_size: 1.6rem;
   --_font-default: "Syne", sans-serif;
@@ -30,7 +11,6 @@
   --_animspeed-medium: 0.3s;
   --_animspeed-slow: 0.6s;
   --_animbezier: cubic-bezier(0.23, 0.65, 0.74, 1.09);
-  /* light color scheme */
   --base--light: #e6ebf4;
   --base-tint--light: #ebf0f7;
   --base-shade--light: #bdc1c8;
@@ -78,7 +58,6 @@
   --gradient-one--dark: #a287d5;
   --gradient-two--dark: #E4B8BF;
   --gradient-three--dark: #8b6bc5;
-  /* permanent colors */
   --per-base: #111111;
   --per-base-tint: #212121;
   --per-stroke-controls: rgba(255,255,255,0.4);
@@ -96,7 +75,7 @@
   }
 }
 
-/* defaults */
+
 @media (prefers-color-scheme: light) {
   :root {
     --base: var(--base--light);
@@ -203,9 +182,7 @@
   --gradient-three: var(--gradient-three--dark);
 }
 
-/* ------------------------------------------------*/
-/* Loader Styles Start */
-/* ------------------------------------------------*/
+
 .loader {
   position: fixed;
   top: 0;
@@ -371,6 +348,3 @@
             transform: scale(1.2, 1);
   }
 }
-/* ------------------------------------------------*/
-/* Loader Styles End */
-/* ------------------------------------------------*/
