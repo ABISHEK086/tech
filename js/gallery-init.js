@@ -28,8 +28,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 h: parseInt(size[1], 10)
             };
 
-
-
             if(figureEl.children.length > 1) {
                 
                 item.title = figureEl.children[1].innerHTML;
