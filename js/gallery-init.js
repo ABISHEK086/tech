@@ -22,7 +22,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             size = linkEl.getAttribute('data-size').split('x');
 
-           
             item = {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
