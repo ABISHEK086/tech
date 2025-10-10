@@ -143,7 +143,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         };
 
-        
         if(fromURL) {
             if(options.galleryPIDs) {
                 for(var j = 0; j < items.length; j++) {
