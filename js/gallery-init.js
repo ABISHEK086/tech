@@ -53,8 +53,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
         var eTarget = e.target || e.srcElement;
-
-       
         var clickedListItem = closest(eTarget, function(el) {
             return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
         });
