@@ -88,7 +88,6 @@ $(function() {
     });
   });
 
-
   gsap.set(".animate-card-2", {y: 100, opacity: 0});
   ScrollTrigger.batch(".animate-card-2", {
     interval: 0.1,
