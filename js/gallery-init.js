@@ -13,7 +13,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
             figureEl = thumbElements[i]; 
 
-           
             if(figureEl.nodeType !== 1) {
                 continue;
             }
