@@ -4,7 +4,7 @@ $(function() {
   gsap.registerPlugin(ScrollTrigger);
 
   const content = document.querySelector('body'); 
-  const imgLoad = imagesLoaded(content);
+  const imgLoad = imagesLoaded(content); 
   
   imgLoad.on('done', instance => { 
  
