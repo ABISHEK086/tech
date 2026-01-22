@@ -10,7 +10,7 @@ $(function() {
   
     document.getElementById("loaderContent").classList.add("fade-out");
     setTimeout(() => {
-      document.getElementById("loader").classList.add("loaded");
+      document.getElementById("loader").classList.add("loaded 
     }, 300);
 
     gsap.set(".animate-headline", {y: 50, opacity: 0});
