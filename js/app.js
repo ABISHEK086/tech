@@ -1,7 +1,7 @@
 $(function() {
   "use strict";
 
-  gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger); 
 
   const content = document.querySelector('body'); 
   const imgLoad = imagesLoaded(content); 
