@@ -7,7 +7,7 @@ $(function() {
   const imgLoad = imagesLoaded(content); 
   
   imgLoad.on('done', instance => { 
- 
+  
     document.getElementById("loaderContent").classList.add("fade-out");
     setTimeout(() => {
       document.getElementById("loader").classList.add("loaded");
